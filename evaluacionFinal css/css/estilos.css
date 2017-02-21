@@ -1,0 +1,181 @@
+*
+{margin:0;}
+
+body{
+	font-family: Dancing Script;
+  background-color: #02010a;}
+
+#wrapper{
+	width: 900px;
+	margin: 0 auto;}
+
+header{
+	background-color:  #5b7989;
+  color: white;
+  text-shadow: 2px #02010a;
+  border-radius: 10px 10px 0px 0px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;}
+
+nav{
+	height: 100%;
+	text-align: right;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 0;}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;}
+
+li{
+  float: right;
+  display: block;
+  margin:5px 5px 5px;
+  padding: 15px 0px;
+  height: 100%;}
+
+.sinlinea{
+	color: white;
+	text-decoration: none;
+	}
+
+img{
+	box-shadow: 2px 2px 2px #02010a;
+	border: 2px;}
+
+article{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 400px;}
+
+	#columna1	{
+	background-color: #82c3a6;
+	width: 100%;}
+
+	#imagen1{
+		position: relative;
+		width: 100%;
+		max-width: 400px;}
+
+	#columna2{
+	background-color: #d5c75f;
+	width: 50%;}
+
+	#imagen2{
+		position: relative;
+		width: 80%;
+		max-width: 400px;
+		transition-property: rotate;}
+
+	#imagen2:hover{
+		transform: rotate(10deg);}
+
+
+	#columna3{
+	background-color: #d5c75f;
+	width: 50%;}
+
+	#imagen3{
+		position: relative;
+		width: 80%;
+		max-width: 400px;
+		transition-property: translate;}
+
+	#imagen3:hover{
+		transform: translateY(5px);
+		transform: translateX(20px);}
+
+	#footer{
+		margin: 0 auto;
+		width: 900px;}
+
+	#contacto{
+		border-radius: 0px 0px 0px 10px;
+		background-color: #C6d5c5;
+		width: 25%;
+		text-align: center;
+		padding: 15px;}
+
+	#termino{
+		background-color: #C6d5c5;
+		width: 25%;
+		text-align: center;}
+
+	#redes{
+		background-color: #C6d5c5;
+		width: 25%;
+		text-align: center;}
+
+	#derechos{
+		border-radius: 0px 0px 10px 0px;
+		background-color: #C6d5c5;
+		width: 25%;
+		text-align: center;}
+
+
+@media screen and (max-width: 960px){
+	#wrapper
+	{
+		width: 90%;
+		margin: 0 auto;}}
+
+@media screen and (max-width: 640px){
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;}}
+
+@media screen and (max-width: 480px){
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;}
+
+	#columna1{
+	width: 100%;}
+
+	#columna2{
+	width: 100%;}
+
+	#columna3{
+	width: 100%;}
+
+	header{
+	width:100%;}
+
+@media screen and (max-width: 960px){
+	#footer{
+		width: 90%;
+		margin: 0 auto;}}
+
+@media screen and (max-width: 640px){
+	#footer{
+		width: 100%;
+		margin: 0 auto;}}
+
+@media screen and (max-width: 480px){
+	#footer{
+		width: 100%;
+		margin: 0 auto;}
+
+	#contacto{
+		width: 100%;}
+
+	#termino{
+		width: 100%;}
+
+	#redes{
+		width: 100%;}
+
+	#derechos{
+		width: 100%;}
+
+	#menu{
+		align-content: center;
+	}
